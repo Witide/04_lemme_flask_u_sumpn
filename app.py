@@ -11,9 +11,6 @@ def beep():
 @my_app.route('/boop')
 def boop():
     return 'this is boop'
-@my_app.route('/barp')
-def barp():
-    return 'this is barp'
     
 if __name__ == '__main__':
     my_app.debug = True
